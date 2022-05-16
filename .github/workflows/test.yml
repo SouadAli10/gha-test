@@ -13,7 +13,7 @@ jobs:
     name: Unit Tests
     steps:
       - name: Clone the repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v2
       - name: Test
         run: |
           npm install
